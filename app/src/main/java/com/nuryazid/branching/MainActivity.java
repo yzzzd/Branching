@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         See.log("pop logcat");
-        Log.e("tag","1.0");
+        Log.e("tag","versi 1.0");
 
         See.toast(this,"halo");
         Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
